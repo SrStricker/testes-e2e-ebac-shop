@@ -1,0 +1,28 @@
+[
+    {
+    "nome": "Luciano",
+    "sobrenome": "Stricker",
+    "empresa": "Sumitomo",
+    "endereço": "profeta amós",
+    "numero": "2000",
+    "pais": "Brasil",
+    "cidade": "Curitiba",
+    "estado": "Paraná",
+    "cep": "83824420",
+    "telefone": "988971226",
+    "email": "ebac@teste.com"
+},
+{
+    "nome": "Felipe",
+    "sobrenome": "Pereira",
+    "empresa": "Facebook",
+    "endereço": "profeta amós",
+    "numero": "2500",
+    "pais": "Brasil",
+    "cidade": "Curitiba",
+    "estado": "Paraná",
+    "cep": "83824420",
+    "telefone": "988971226",
+    "email": "ebac@teste.com"
+}
+]
