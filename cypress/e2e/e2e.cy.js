@@ -58,6 +58,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
       dadosEndereço[0].cep,
       dadosEndereço[0].telefone,
       dadosEndereço[0].email)
+      //faturamento importado via page objects
 
     cy.get('#terms').click()
     cy.get('#place_order').click()
