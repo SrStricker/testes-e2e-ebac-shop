@@ -30,11 +30,11 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
       faker.name.firstName(),
       faker.name.lastName(),
       faker.company.name(),
-      "Brasil",
+      'Brasil',
       faker.address.streetAddress(),
       faker.address.secondaryAddress(),
       faker.address.cityName(),
-      "Paraná",
+      'Paraná',
       faker.address.zipCode('#####-###'),
 
     ) //endereço de entrega por comando customizado

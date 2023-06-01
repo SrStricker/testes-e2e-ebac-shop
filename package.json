@@ -23,7 +23,7 @@
   "homepage": "",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^12.11.0"
+    "cypress": "^12.13.0"
   },
   "dependencies": {
     "faker": "^5.5.3"
