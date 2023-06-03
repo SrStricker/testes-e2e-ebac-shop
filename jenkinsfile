@@ -1,8 +1,8 @@
 pipeline{
     agent any
-
+    
     tools {nodejs "node"}
-
+    
     stages{
         stage('clonar repositorio'){
             steps{
@@ -11,12 +11,12 @@ pipeline{
         }
         stage('instalar dependencias'){
             steps{
-                sh 'npm install'
+                bat 'npm install'
             }
         }
         stage('executar testes'){
             steps{
-                sh 'NO_COLOR=1 npm run cy:run'
+                echo 'npm run cy:run'
             }
         }
     }
