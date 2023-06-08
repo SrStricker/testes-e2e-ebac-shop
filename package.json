@@ -28,6 +28,9 @@
   },
   "dependencies": {
     "faker": "^5.5.3",
+    "mocha": "^10.2.0",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
     "node": "^20.2.0"
   }
 }
