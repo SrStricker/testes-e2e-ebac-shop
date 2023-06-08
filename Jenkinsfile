@@ -11,7 +11,8 @@ pipeline{
         }
         stage('instalar dependencias'){
             steps{
-                sh 'npm install'
+                sh 'npx cypress install'
+                sh 'cypress verify'
             }
         }
         stage('executar testes'){
