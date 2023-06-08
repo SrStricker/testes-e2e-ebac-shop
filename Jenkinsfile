@@ -10,8 +10,7 @@ pipeline{
         }
         stage('instalar dependencias'){
             steps{
-                sh 'npm install cypress --save-dev'
-                sh 'cypress verify'
+                sh 'npm install'
             }
         }
         stage('executar testes'){
